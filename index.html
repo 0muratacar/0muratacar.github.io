@@ -1,38 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebProjemiz</title>
+    <style>
+        body{
+            background-color:rgb(243, 212, 212);
+        }
+        .main_div {
+            border: 1px solid gray;
+            list-style: none;
+            box-shadow: 2px 2px 2px 2px gray;
+            margin:50px;
+            background-color: rgb(240, 216, 216);
+        }
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        .kisi {
+            margin-bottom: 50px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="jumbotron text-center">
-        <h1>Grup 9-Takım Üyeleri</h1>
-        <p>Nur Hatipoğlu</p>
-        <p>Mehmet Öztürk</p>
-        <p>Murat Acar</p>
-      </div>
+    <h1 style="margin-left: 50px; margin-top: 50px;">Takım Üyeleri</h1>
 
-      <div class="hakkında" style="background-color:bisque">
-          <h2>Takım Üyeleri Hakkında</h2>
-          <ol type="I">
-              <li>Nur Hatipoğlu</li>
-              <p>Marmara Üniversitesi Bilgisayar Mühendisliği 2.sınıf öğrencisidir. Yazılım alanında kendini geliştirmektedir.</p>
-              <li>Mehmet Öztürk</li>
-              <li>Murat Acar</li>
-          </ol>
-      </div>
+    <div class="main_div">
+        <ul style="list-style-type: none;">
+            <li class="kisi">
+                <img src="img/ben4.jfif"><br>
+                <u><p style="margin-left: 5px;">Mehmet Öztürk</p></u>
+                <hr>
+                <div>
+                    <b>Mehmet Öztürk, </b> Marmara Üniversitesi bilgisayar mühendisliği 2. sınıf öğrencisidir.
+                    <u>Teknofest 2020 Akıllı Ulaşım Kategorisi</u> Jüri Ödülünü kazanmıştır.
+                    <h3 style="padding-left: 20px;">Projeler</h3>
+                    <ol>  
+                        <li>A-Peron</li>
+                        <li>Misus</li>
+                        <li>E-Ticaret Sitesi</li>
+                        <li>Blog Sitesi</li>
+                        <li>DevMaids</li>
+                        <li>Deprem Sensör Cihazı</li>
+                        <li>Mücevherat Tanıtım Sitesi</li>
+                    </ol>
+                   <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small> mehmet.ztrk2134@gmail.com</small></span></p>
+                </div>
+            </li>
 
-      <div class="proje" style="background-color:cadetblue">
-          <h2>Proje Hakkında</h2>
-          <p>Statik bir web sayfası oluşturulacaktır. Bu sebeple tasarıma önem verilen bir web sitesi yapılması düşünülmektedir.</p>
-      </div>
+            <li class="kisi">
+                <u><p style="margin-left: 5px;">Nur Hatipoğlu</p></u>
+                <hr>
 
-      <div>
-          <p>Web programlama öğrenecek olan bu takım <a href="https://www.w3schools.com/html/" target="_blank">W3SCHOOL</a> sitesi vasıtasıyla kendini geliştirecektir.</p>
-      </div>
+            </li>
+            <li class="kisi">
+                <u><p style="margin-left: 5px;">Murat Acar</p></u>
+                <hr>
+
+            </li>
+        </ul>
+
+    </div>
 </body>
+
 </html>
