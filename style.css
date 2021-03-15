@@ -1,0 +1,35 @@
+
+
+body {
+    background-color: rgb(243, 212, 212);
+}
+
+.fikir_div h2{
+    text-align: center;
+}
+
+.my_div{
+    display: inline-block;
+}
+
+.main_div,.fikir_div {
+    border: 1px solid gray;
+    list-style: none;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 50px;
+    background-color: rgb(240, 216, 216);
+}
+
+.kisi {
+    margin-bottom: 80px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+i {
+    color: black;
+}
