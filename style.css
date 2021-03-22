@@ -2,37 +2,78 @@
 
 body {
     background-color: rgb(243, 212, 212);
+    margin: 0;
+    padding:0;
 }
 
 #baslik{
     color:cadetblue;
 }
 
-.fikir_div h2{
-    text-align: center;
+nav{
+    background-color: #6495ED;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li{
+    display: inline;
+    
+}
+nav a, .vertical_navigation a{
+    text-decoration: none;
+    color: black;
+    transition: 21 all;
+
+}
+nav a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.vertical_navigation a:hover{
+    color: gray;
+    text-decoration: underline;
 }
 
 .my_div, .my_div2{
-    display: inline-block;
-    border: 3px solid rgb(50,200,50);
+    flex-wrap: wrap;
     width: 40%;
     padding: 12px;
     margin-left: 60px;
-    background-color:cornflowerblue;
-    text-align: center;
+}
+main{
+    display: flex;
+}
+main section{
+    justify-content: center;
+}
+.vertical_navigation{
+    margin-top: 50px;
+    width: 15%;
+    position: fixed;
+}
+.vertical_navigation ul{
+    list-style: none;
+   
+}
+.vertical_navigation li{
+    margin-top: 50px;
 }
 
-.my_div2{
-    padding-top: 30px;
-}
 
-
-.main_div,.fikir_div {
+.main_div,.fkr {
     border: 1px solid gray;
     list-style: none;
     box-shadow: 2px 2px 2px 2px gray;
     margin: 50px;
     background-color: rgb(240, 216, 216);
+}
+.fkr h2{
+    text-align: center;
+}
+
+.fikir_div{
+    display: flex;
 }
 
 .kisi {
@@ -47,4 +88,11 @@ img {
 
 i {
     color: black;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6495ED;
+
 }
