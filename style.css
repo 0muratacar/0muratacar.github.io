@@ -1,18 +1,20 @@
 body {
     background-color: blanchedalmond;
     margin: auto;
+    font-family: 'Kiwi Maru', serif;
+    /*font-family: 'Dancing Script', cursive;*/
 }
 
 article{
     display:flex;
     flex-direction:column;
     /*height:300vh;*/
-    height: 100vh;
+    height:100vh;
 }
 
 header{
     background-color: lightskyblue;
-    height: 170px;
+    /*height: 170px;*/
 }
 
 footer {
@@ -113,7 +115,7 @@ nav{
 
 .section_div1,.section_div3{
     height: 570px;
-    width: 550px;
+    width: 50%;
     border: 10px solid green;
 }
 
@@ -125,4 +127,51 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+@media (max-width: 700px) {
+    article {
+    background-color: red;
+    }
+}
+
+#computer_img{
+    display:block;
+}
+
+#Button, #time_button{
+    background-color: #38A3B5;
+    border-radius: 3px;
+    border: 0;
+    color: black;
+    padding: 10px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0,0, 0.6);
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    transition: all 1s;
+}
+
+#time_button{
+    margin: 50px auto;
+}
+#demo{
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 90px auto;
+}
+
+#Button:hover{
+    background-color:violet;
+    color:white;
+    border-radius:10px;
+}
+#time_button:hover{
+    background-color:violet;
+    color:white;
+    border-radius:10px;
 }

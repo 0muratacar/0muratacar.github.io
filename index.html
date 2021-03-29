@@ -3,18 +3,23 @@
 <head>
     <title>Wikipedia</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="javascript.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CX1JFYT87E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CX1JFYT87E');
-</script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX1JFYT87E"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CX1JFYT87E');
+    </script>
 </head>
 <body>
     <article>
@@ -32,7 +37,7 @@
             </div>
 
             <div class="logo">
-                <img src="https://tr.wikipedia.org/static/images/mobile/copyright/wikipedia.png" />
+                <img id="wikipedia_img" src="https://tr.wikipedia.org/static/images/mobile/copyright/wikipedia.png" />
             </div>
 
             <diV class="yazi">
@@ -85,6 +90,10 @@
                 <div class="kolon">
                     <a href="https://tr.wikipedia.org/wiki/Vikipedi:Seçkin_maddeler" target="blank"><h3>Haftanın Seçkin Makalesi</h3></a>
                     <p>FIFA Dünya Kupası, dünya genelinde düzenlenen ve FIFA üyesi ülkelerin erkek millî takımlarının katıldığı futbol turnuvası FIFA Dünya Kupası'nı kazanan takıma verilen kupadır. Turnuvanın başladığı 1930'dan itibaren kazanan takıma, sonraki turnuvaya kadar geçici olarak elinde bulunduracağı Jules Rimet Kupası verilirken bu kupanın 1970'te daimi olarak Brezilya'ya verilmesi sonrasında yeni bir kupa tasarlandı.</p>
+                    <button id="Button">Buton</button>
+                    <button id="time_button">The time is?</button>
+                    <p id="demo"></p>
+
                 </div>
                 <div class="kolon">
                     <h3>Tarihte Bugün</h3>
@@ -102,6 +111,7 @@
                 <h2><mark>Reklamlar</mark></h2>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, possimus tempore! Neque, explicabo asperiores qui id eveniet nesciunt suscipit, cupiditate, eos animi distinctio unde. Facere asperiores velit natus error neque?
                 <a href="https://www.vatanbilgisayar.com/lenovo-creator-5-core-i7-10750h-2-6ghz-16gb-512ssd-15-6-gtx1650ti-4gb-w10.html" target="blank"><img style="width:150px;" src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/lenovo/thumb/109448_large.jpg"/></a>
+                <img id="computer_img" style="width:150px;" src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/lenovo/thumb/109448_large.jpg"/>
             </div>
 
             </div>
