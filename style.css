@@ -1,177 +1,61 @@
-body {
-    background-color: blanchedalmond;
-    margin: auto;
-    font-family: 'Kiwi Maru', serif;
-    /*font-family: 'Dancing Script', cursive;*/
+.video {
+    position: fixed;
+    top: 24%;
+    left: 20%;
+    box-shadow: 5px 5px 50px 50px rgb(49, 22, 22);
+    border:6px solid black;
 }
-
-article{
-    display:flex;
-    flex-direction:column;
-    /*height:300vh;*/
-    height:100vh;
-}
-
-header{
-    background-color: lightskyblue;
-    /*height: 170px;*/
-}
-
-footer {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color: lightskyblue;
-    height: 60px;
-}
-
-section {
-    flex-grow:1;
-    background-color: gray;
-    margin: 10px;
-}
-
-.logo ,.arama, .yazi{
-    display: inline-block;
-}
-
-form{
-    margin-left: 50px;
-}
-
-h1 {
-    color: brown;
-    text-align: center;
-}
-
-div {
-    margin: 20px auto;
-}
-
-div.baslik {
-    font-size: larger;
-    font-weight: bold;
-}
-
-p.kutu {
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: justify;
-    margin: auto;
-}
-
-p {
-    text-align: center;
-}
-
-.konteyner {
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
-    background-color: green;
-}
-
-div.kolon {
-    background-color: tomato;
-    width: 45%;
-    margin: 10px 0 0;
-    
-}
-
-
-nav{
-    min-height:6vh;
-    /*width:208vh;*/
-    width:100%; /*bu sayede navbar ın genişliği hep sayfanın boyutu kadar yani kaplıyor.*/
-    /*background-color: #5d4954;*/
-    background-color: royalblue;
-    position:fixed;/*sbt durur*/
-}
-
-.nav_links2{
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav_links2 li{
-    list-style: none; /*li lerin önünde liste kullanırkan olan yuvarlağı siliyoruz.*/
-}
-
-.nav_links2 a{
-    color: rgb(226,226,226);
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size:14px;
-}
-
-#flex-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border: 2px solid black;
-}
-
-.section_div1,.section_div3{
-    height: 570px;
-    width: 50%;
-    border: 10px solid green;
-}
-
-.section_div2{
-    flex-grow: 1;
-}
-
-.section_div{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-@media (max-width: 700px) {
-    article {
-    background-color: red;
-    }
-}
-
-#computer_img{
-    display:block;
-}
-
-#Button, #time_button{
-    background-color: #38A3B5;
-    border-radius: 3px;
-    border: 0;
-    color: black;
-    padding: 10px 30px;
-    box-shadow: 0 2px 4px rgba(0, 0,0, 0.6);
+.mt-3:hover {
     cursor: pointer;
-    font-size: 14px;
-    position: absolute;
-    left:0;
-    right:0;
-    margin: 0 auto;
-    transition: all 1s;
 }
 
-#time_button{
-    margin: 50px auto;
-}
-#demo{
-    position: absolute;
-    left:0;
-    right:0;
-    margin: 90px auto;
+.name {
+    position: fixed;
+    border-radius: 5px;
+    top: 13%;
+    left: 40%;
+    color: rgb(0, 0, 0);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    background-color: rgb(255, 219, 219);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: inset 5px 10px 20px white ,10px 10px 55px 10px rgb(255, 236, 162) ;
 }
 
-#Button:hover{
-    background-color:violet;
-    color:white;
-    border-radius:10px;
+.map {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
 }
-#time_button:hover{
-    background-color:violet;
-    color:white;
-    border-radius:10px;
+
+.close {
+    position: fixed;
+    top: 12%;
+    left: 72%;
+}
+
+.fa-city {
+    display: none;
+}
+
+.flag {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    padding-left: 50px;
+    background-image: linear-gradient(to right bottom,
+            rgba(12, 11, 11, 0.7),
+            rgba(250, 250, 250, 0.3)), url("city3.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    background-attachment: fixed;
 }
