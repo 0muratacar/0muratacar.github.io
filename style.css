@@ -1,3 +1,33 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
 .video {
     position: fixed;
     top: 24%;
@@ -48,14 +78,17 @@
     max-height: 100%;
     max-width: 100%;
 }
+.header {
+  padding-left: -50px !important;
 
+}
 body {
-    padding-left: 50px;
     background-image: linear-gradient(to right bottom,
             rgba(12, 11, 11, 0.7),
-            rgba(250, 250, 250, 0.3)), url("city3.jpg");
+            rgba(250, 250, 250, 0.3)), url("images/city3.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
     background-attachment: fixed;
 }
+

@@ -5,41 +5,49 @@ body {
     margin: 0;
     padding:0;
 }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
 
 #baslik{
     color:cadetblue;
 }
 
-nav{
-    background-color: #6495ED;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-nav li{
-    display: inline;
-    
-}
-nav a, .vertical_navigation a{
-    text-decoration: none;
-    color: black;
-    transition: 21 all;
 
-}
-nav a:hover{
-    color: gray;
-    text-decoration: underline;
-}
-.vertical_navigation a:hover{
-    color: gray;
-    text-decoration: underline;
-}
+
 
 .my_div, .my_div2{
     flex-wrap: wrap;
     width: 40%;
     padding: 12px;
-    margin-left: 60px;
+    mar gin-left: 60px;
 }
 main{
     display: flex;
