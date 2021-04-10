@@ -476,6 +476,20 @@ var models = [
         map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4042248.3471296434!2d-87.05336939115601!3d8.351567367277067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f92e56221acc925%3A0x6254f72535819a2b!2sKosta%20Rika!5e0!3m2!1str!2str!4v1617618064234!5m2!1str!2str" 
     },
     {
+        name: "Kiribati",
+        url: "https://www.youtube.com/embed/T61I6KiHb8k?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/CusAyWlUsNI",
+        flag: "https://www.countryflags.com/wp-content/uploads/kiribati-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32619186.991257716!2d173.4221430609491!3d-3.625291970125648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65647c91c2028703%3A0x84327d040152c307!2sKiribati!5e0!3m2!1str!2str!4v1617616101185!5m2!1str!2str"
+    },
+    {
+        name: "Colombian",
+        url: "https://www.youtube.com/embed/V12xrLlUGjI?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/3ACa4szyWNM",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/255px-Flag_of_Colombia.svg.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32619186.991257716!2d173.4221430609491!3d-3.625291970125648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sKolombiya!5e0!3m2!1str!2str!4v1617616470685!5m2!1str!2str" 
+    },
+    {
         name: "Kuwait",
         url: "https://www.youtube.com/embed/56YL34r0Ovo?start=" + Math.floor(Math.random() * 100),
         radio: "https://www.youtube.com/embed/fhB4cZAToR0",
