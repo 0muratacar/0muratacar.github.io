@@ -385,6 +385,112 @@ var models = [
         radio: "https://www.youtube.com/embed/WEsJ0un-AME",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/125px-Flag_of_Greece.svg.png",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50310.55761009113!2d23.703319971790553!3d37.99089965315185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2sAtina%2C%20Yunanistan!5e0!3m2!1str!2str!4v1617643056489!5m2!1str!2str" 
-    }
+    },
+    //Nur Veri
+    {
+        name: "Morocco",
+        url: "https://www.youtube.com/embed/vp8s914UOH8?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/2andxQSxOfw",
+        flag: "https://www.countryflags.com/wp-content/uploads/morocco-flag-png-large.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950462.132997159!2d-11.644118265667846!3d31.72189486958806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b88619651c58d%3A0xd9d39381c42cffc3!2sFas!5e0!3m2!1str!2str!4v1617545534562!5m2!1str!2str"
+    },
+    {
+        name: "Philippines",
+        url: "https://www.youtube.com/embed/rjzVcG-XwXU?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/tWG4YUx_Mk8",
+        flag: "https://www.countryflags.com/wp-content/uploads/philippines-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4050984.8164515854!2d-7.792278055943052!3d7.460842530320027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sFilipinler!5e0!3m2!1str!2str!4v1617546752040!5m2!1str!2str" 
+    },
+    {
+        name: "Finland",
+        url: "https://www.youtube.com/embed/xv06DuU-5qk?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/cGDHvhs6-Dc",
+        flag: "https://www.countryflags.com/wp-content/uploads/finland-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7003778.551776272!2d17.089631406853986!3d64.62330908778006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cadf4b32f6dd%3A0x146d63c75a810!2sFinlandiya!5e0!3m2!1str!2str!4v1617547306628!5m2!1str!2str" 
+    },
+    {
+        name: "Guinea",
+        url: "https://www.youtube.com/embed/M32QriMVpms?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/CgWqmwcfT30",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/260px-Flag_of_Guinea.svg.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4024425.0324173262!2d-13.704617809902475!3d9.92541517030899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf01b321bcce953f%3A0xe8737bcbd75a2df6!2sGine!5e0!3m2!1str!2str!4v1617549084133!5m2!1str!2str" 
+    },
+    {
+        name: "South Korea ",
+        url: "https://www.youtube.com/embed/TGsbzSxpiLo?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/P1fX2GGdVS0",
+        flag: "https://www.countryflags.com/wp-content/uploads/south-korea-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313736.2519784546!2d125.62967149419974!3d35.79820109599876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sG%C3%BCney%20Kore!5e0!3m2!1str!2str!4v1617551065524!5m2!1str!2str" 
+    },
+    {
+        name: "Gürcistan",
+        url: "https://www.youtube.com/embed/vnDoPmYVRro?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/ui8ejlowGIg",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1200px-Flag_of_Georgia.svg.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021869.4118883424!2d41.11443654993409!3d42.298919141207016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x4f907964122d4ac2!2sG%C3%BCrcistan!5e0!3m2!1str!2str!4v1617552413873!5m2!1str!2str" 
+    },
+    {
+        name: "India",
+        url: "https://www.youtube.com/embed/rpeOOYpvEuo?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/1We5a3uUwRw",
+        flag: "https://i.pinimg.com/originals/a0/46/8d/a0468dcca109b1140a4951e3a4614bb4.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711219.15049817!2d64.44099882140567!3d20.011531347539172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sHindistan!5e0!3m2!1str!2str!4v1617555324356!5m2!1str!2str" 
+    },
+    {
+        name: "Netherlands",
+        url: "https://www.youtube.com/embed/kVf3o24SkeQ?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/AKLrKMz-avE",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504542.8621762805!2d3.0368221406596163!3d52.19173301134933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3db87e4bb%3A0xb3a175ceffbd0a9f!2sHollanda!5e0!3m2!1str!2str!4v1617555834416!5m2!1str!2str" 
+    },
+    {
+        name: "Madrid",
+        url: "https://www.youtube.com/embed/2RakvEQhTTA?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/FD0RlazkhtU",
+        flag: "https://www.countryflags.com/wp-content/uploads/spain-flag-png-large.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6248294.125075572!2d-8.203466546263893!3d40.1216778459112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc42e3783261bc8b%3A0xa6ec2c940768a3ec!2zxLBzcGFueWE!5e0!3m2!1str!2str!4v1617606308641!5m2!1str!2str" 
+    },
+    {
+        name: "Sweden",
+        url: "https://www.youtube.com/embed/AmyIxu39JJE?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/1AQaVe9vnL0",
+        flag: "http://upload.turkcewiki.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15908306.717847338!2d-0.26227445737658056!3d60.87465135824224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb2396d35f0f1%3A0x22b8eba28dad6f62!2zxLBzdmXDpw!5e0!3m2!1str!2str!4v1617606673322!5m2!1str!2str" 
+    },
+    {
+        name: "Switzerland",
+        url: "https://www.youtube.com/embed/kVxTrhojpFI?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/PYMNVcqPU5E",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398183.4135516773!2d7.103134484002503!3d46.807714027903295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2zxLBzdmnDp3Jl!5e0!3m2!1str!2str!4v1617608338951!5m2!1str!2str" 
+    },
+    {
+        name: "Roma",
+        url: "https://www.youtube.com/embed/EsFheWkimsU?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/ph1vpnYIxJk",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12344909.289790202!2d3.722048297420797!3d40.93999314407897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2zxLB0YWx5YQ!5e0!3m2!1str!2str!4v1617608581118!5m2!1str!2str" 
+    },
+    {
+        name: "Costa Rica",
+        url: "https://www.youtube.com/embed/LWrtCsXe8nA?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/BdKiPR3kdjo",
+        flag: "https://www.countryflags.com/wp-content/uploads/costa-rica-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4042248.3471296434!2d-87.05336939115601!3d8.351567367277067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f92e56221acc925%3A0x6254f72535819a2b!2sKosta%20Rika!5e0!3m2!1str!2str!4v1617618064234!5m2!1str!2str" 
+    },
+    {
+        name: "Kuwait",
+        url: "https://www.youtube.com/embed/56YL34r0Ovo?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/fhB4cZAToR0",
+        flag: "https://www.countryflags.com/wp-content/uploads/kuwait-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d890613.2924918421!2d46.975251475830866!3d29.312902544218428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc5363fbeea51a1%3A0x74726bcd92d8edd2!2sKuveyt!5e0!3m2!1str!2str!4v1617619581983!5m2!1str!2str" 
+    },
+    {
+        name: "Cuba",
+        url: "https://www.youtube.com/embed/63ARQhtaUPs?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/xPIOrYiCf6g",
+        flag: "https://www.countryflags.com/wp-content/uploads/cuba-flag-png-large.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801283.1849052175!2d-81.80734613225133!3d21.500252650228187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88cd49070f7a4cb5%3A0x798cf7529110a41a!2zS8O8YmE!5e0!3m2!1str!2str!4v1617620277213!5m2!1str!2str" 
+    },
 ];
 
