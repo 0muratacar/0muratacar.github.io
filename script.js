@@ -1,6 +1,6 @@
 for (let index = 0; index < models.length; index++) {
     document.getElementById("sect").innerHTML += `
-    <div class="mt-3 mx-3 place" id="`+ index + `" style="width: 7%;height:70px;display:inline-block;background-image:url('`+models[models.length-2].flag+`');background-size:100% 70px;background-position:top;background-repeat :no-repeat;border-radius:5px;box-shadow: 5px 10px 20px rgb(94, 9, 9) inset;"></div> 
+    <div class="mt-3 mx-3 place" id="`+ index + `" style="width: 7%;height:70px;display:inline-block;background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Flag-map_of_the_world_%281900%29.png');background-size:100% 70px;background-position:top;background-repeat :no-repeat;border-radius:5px;box-shadow: 5px 10px 20px rgb(94, 9, 9) inset;"></div> 
 
     `;
 
@@ -60,7 +60,7 @@ function control(index) {
             document.getElementsByClassName("place")[index].className = "mt-3 mx-3 place";
             document.getElementsByClassName("place")[index].style.boxShadow = "5px 10px 20px rgb(94, 9, 9) inset";
             document.getElementsByClassName("place")[index].style.borderRadius="5px";
-            document.getElementsByClassName("place")[index].style.backgroundImage="url('"+models[models.length-2].flag+"')"
+            document.getElementsByClassName("place")[index].style.backgroundImage="url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Flag-map_of_the_world_%281900%29.png')"
         }
       
         playfunct(e);
