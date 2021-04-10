@@ -502,6 +502,56 @@ var models = [
         radio: "https://www.youtube.com/embed/xPIOrYiCf6g",
         flag: "https://www.countryflags.com/wp-content/uploads/cuba-flag-png-large.png",
         map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801283.1849052175!2d-81.80734613225133!3d21.500252650228187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88cd49070f7a4cb5%3A0x798cf7529110a41a!2zS8O8YmE!5e0!3m2!1str!2str!4v1617620277213!5m2!1str!2str" 
+    },  {
+        name:"Belgium",
+        url:"https://www.youtube.com/embed/SxEadXFM62E?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/DY_rFed96mg",
+        flag:"https://www.kanculturizm.com/uploads/bel.jpg",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1299490.7078731877!2d3.345105040469219!3d50.495696090671295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c17d64edf39797%3A0x47ebf2b439e60ff2!2zQmVsw6dpa2E!5e0!3m2!1str!2str!4v1617613949277!5m2!1str!2str"
     },
+    {
+        name:"Dominician Republic",
+        url:"https://www.youtube.com/embed/W-v7xh5vHOE?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/W8MXFaxIfQk",
+        flag:"https://www.bayraklar.info/data/flags/ultra/do.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935330.6088110178!2d-71.25139210488993!3d18.666571797839616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8838def1b6f5%3A0xa6020f24060df7e0!2sDominik%20Cumhuriyeti!5e0!3m2!1str!2str!4v1617616592336!5m2!1str!2str"
+
+    },
+    {
+        name:"Copenhagen",
+        url:"https://www.youtube.com/embed/nTOssmG4UjA?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/cMFReEnAPDw",
+        flag:"https://www.rotaradar.com/blog/wp-content/uploads/2020/02/danimarka-bayrak-.jpg",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72000.6491097692!2d12.523784492488176!3d55.67124741351282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2sKopenhag%2C%20Danimarka!5e0!3m2!1str!2str!4v1617617189857!5m2!1str!2str"
+    },
+    {
+        name:"Armenia",
+        url:"https://www.youtube.com/embed/R_OYLxCF_Og?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/r-2S1ZZELQE",
+        flag:"https://p4.wallpaperbetter.com/wallpaper/335/980/8/armenia-flag-republic-of-armenia-eurasia-armenian-flag-hd-wallpaper-preview.jpg",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1563370.0398324223!2d43.919602133169576!3d40.06521474492859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40155684e773bac7%3A0xd0b4757aeb822d23!2sErmenistan!5e0!3m2!1str!2str!4v1617617704079!5m2!1str!2str"
+    },
+    {
+        name:"Philippines",
+        url:"https://www.youtube.com/embed/rjzVcG-XwXU?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/M64iq8KJwuc",
+        flag:"https://www.bayraklar.info/data/flags/w580/ph.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16011006.98994161!2d113.57818798213161!3d11.556355979441925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sFilipinler!5e0!3m2!1str!2str!4v1617618312158!5m2!1str!2str"
+
+    },
+    {
+        name:"Bali",
+        url:"https://www.youtube.com/embed/KxQIcxlMudw?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/_cL8qqjKQP0",
+        flag:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Indonesia_%28bordered%29.svg/1280px-Flag_of_Indonesia_%28bordered%29.svg.png",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.0067500859!2d114.7913468748377!3d-8.455996495809014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd22f7520fca7d3%3A0x2872b62cc456cd84!2sBali!5e0!3m2!1str!2str!4v1617619155140!5m2!1str!2str"
+    },
+    {
+        name:"Jerusalem",
+        url:"https://www.youtube.com/embed/ufChItQpCLI?start=" + Math.floor(Math.random() * 100),
+        radio:"https://www.youtube.com/embed/sZmtypVN0uc",
+        flag:"https://www.asbayrakcilik.com/wp-content/uploads/filistin-bayragi.jpg",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d867278.5749283818!2d34.33161919661629!3d31.884665984359284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151cf2d28866bdd9%3A0xee17a001d166f686!2sFilistin!5e0!3m2!1str!2str!4v1617620020437!5m2!1str!2str"
+    }
 ];
 
