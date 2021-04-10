@@ -455,13 +455,6 @@ var models = [
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15908306.717847338!2d-0.26227445737658056!3d60.87465135824224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb2396d35f0f1%3A0x22b8eba28dad6f62!2zxLBzdmXDpw!5e0!3m2!1str!2str!4v1617606673322!5m2!1str!2str" 
     },
     {
-        name: "Switzerland",
-        url: "https://www.youtube.com/embed/kVxTrhojpFI?start=" + Math.floor(Math.random() * 100),
-        radio: "https://www.youtube.com/embed/PYMNVcqPU5E",
-        flag: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
-        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398183.4135516773!2d7.103134484002503!3d46.807714027903295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2zxLBzdmnDp3Jl!5e0!3m2!1str!2str!4v1617608338951!5m2!1str!2str" 
-    },
-    {
         name: "Roma",
         url: "https://www.youtube.com/embed/EsFheWkimsU?start=" + Math.floor(Math.random() * 100),
         radio: "https://www.youtube.com/embed/ph1vpnYIxJk",
