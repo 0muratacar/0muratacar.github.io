@@ -35,14 +35,14 @@ setInterval(function () {
 
         }
   
-        if (x % 10 == 0) {
+        if (x % 100 == 0) {
             document.getElementsByClassName("map")[0].style.bottom = "3%";
         }
         else
             document.getElementsByClassName("map")[0].style.bottom = "2%";
     }
 
-}, 100);
+}, 10);
 for (let index = 0; index < document.getElementsByClassName("place").length; index++) {
 
     control(index);
