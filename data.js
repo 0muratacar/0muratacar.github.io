@@ -76,7 +76,7 @@ var models = [
         name: "Switzerland",
         url: "https://www.youtube.com/embed/kVxTrhojpFI?start=" + Math.floor(Math.random() * 100),
         radio: "https://www.youtube.com/embed/IvuwTft-0cM",
-        flag:"https://besthqwallpapers.com/Uploads/30-5-2019/94712/thumb2-4k-swiss-flag-european-countries-3d-waves-flag-of-switzerland.jpg"
+        flag:"https://aktiva.swiss/wp-content/uploads/2016/09/flagge-schweiz014_1920x1080.jpg"
         , map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398183.4084449343!2d7.103154603217783!3d46.807714224365775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2zxLBzdmnDp3Jl!5e0!3m2!1str!2str!4v1617285884523!5m2!1str!2str"
     },
 
