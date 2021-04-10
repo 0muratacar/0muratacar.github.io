@@ -65,16 +65,6 @@ var models = [
         flag: "https://ulkelerbayraklar.com/wp-content/uploads/2017/12/avusturya-bayrag%CC%86%C4%B1.png",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170129.53089218406!2d16.23997687377501!3d48.2205998177616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2sViyana%2C%20Avusturya!5e0!3m2!1str!2str!4v1617285781207!5m2!1str!2str"
     },
-
-
-    {
-        name: "Buenos Aires",
-        url: "https://www.youtube.com/embed/0lrcjmhcYRw?start=" + Math.floor(Math.random() * 100),
-        radio: "https://www.youtube.com/embed/36YnV9STBqc",
-        flag: "https://www.bayraklar.info/data/flags/ultra/ar.png",
-        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26483379626!2d-58.503338603933564!3d-34.61580373602787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Arjantin!5e0!3m2!1str!2str!4v1617285815548!5m2!1str!2str"
-    },
-
     {
         name: "Baku",
         url: "https://www.youtube.com/embed/Qdq__PK5B0w?start=" + Math.floor(Math.random() * 100),
@@ -400,6 +390,13 @@ var models = [
         radio: "https://www.youtube.com/embed/tWG4YUx_Mk8",
         flag: "https://www.countryflags.com/wp-content/uploads/philippines-flag-png-large.png",
         map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4050984.8164515854!2d-7.792278055943052!3d7.460842530320027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sFilipinler!5e0!3m2!1str!2str!4v1617546752040!5m2!1str!2str" 
+    },
+    {
+        name: "Buenos Aires",
+        url: "https://www.youtube.com/embed/0lrcjmhcYRw?start=" + Math.floor(Math.random() * 100),
+        radio: "https://www.youtube.com/embed/36YnV9STBqc",
+        flag: "https://www.bayraklar.info/data/flags/ultra/ar.png",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26483379626!2d-58.503338603933564!3d-34.61580373602787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Arjantin!5e0!3m2!1str!2str!4v1617285815548!5m2!1str!2str"
     },
     {
         name: "Finland",
