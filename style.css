@@ -100,7 +100,7 @@ body {
     box-shadow: 5px 5px 50px 50px rgb(49, 22, 22);
     border:6px solid black;
     width: 300px;
-    height: 350px;
+    height: 400px;
 }
 .map {
   position: fixed;
