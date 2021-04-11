@@ -100,14 +100,14 @@ body {
     box-shadow: 5px 5px 50px 50px rgb(49, 22, 22);
     border:6px solid black;
     width: 330px;
-    height: 450px;
+    height: 420px;
 }
 .map {
   position: fixed;
     bottom: 1%;
     right: 1%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
 }
 
@@ -120,7 +120,7 @@ body {
   position: fixed;
   border-radius: 3px;
   top: 9%;
-  left: 5%;
+  left: 4%;
   color: rgb(0, 0, 0);
   font-family: 'Source Code Pro', monospace;
   font-weight: bold;
