@@ -98,14 +98,14 @@ body {
     top: 20%;
     left: 4%;
     width: 340px;
-    height: 400px;
+    height: 350px;
 }
 .map {
   position: fixed;
     bottom: 1%;
     right: 1%;
     width: 150px;
-    height: 150px;
+    height: 100px;
 }
 
 .close {
