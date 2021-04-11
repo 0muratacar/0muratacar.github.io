@@ -106,14 +106,14 @@ body {
   position: fixed;
     bottom: 2%;
     right: 1%;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 5px;
 }
 
 .close {
   position: fixed;
-  top: 9%;
+  top: 8%;
   left: 72%;
 }
   
