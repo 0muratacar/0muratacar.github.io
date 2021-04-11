@@ -139,8 +139,8 @@ body {
     left: 4%;
     box-shadow: 5px 5px 50px 50px rgb(49, 22, 22);
     border:6px solid black;
-    width: 600px;
-    height: 550px;
+    width: 680px;
+    height: 580px;
 }
 .map {
   position: fixed;
