@@ -91,27 +91,29 @@ body {
     background-size: auto;
     background-attachment: fixed;
 }
-/*
+
 @media screen and (max-width: 700px) {
   .video {
     position: fixed;
-    top: 24%;
-    left: 20%;
+    top: 15%;
+    left: 10%;
     box-shadow: 5px 5px 50px 50px rgb(49, 22, 22);
     border:6px solid black;
+    width: 100px;
+    height: 200px;
 }
 .map {
   position: fixed;
     bottom: 2%;
     right: 1%;
-    width: 300px;
-    height: 225px;
+    width: 100px;
+    height: 75px;
     border-radius: 5px;
 }
 
 .close {
   position: fixed;
-  top: 12%;
+  top: 10%;
   left: 72%;
 }
   
@@ -120,5 +122,5 @@ body {
 
   
   
-}*/
+}
 
