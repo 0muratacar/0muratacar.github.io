@@ -95,15 +95,17 @@ body {
 @media screen and (max-width: 700px) {
   .video {
     position: fixed;
-    top: 2%;
-    left: 2%;
+    top: 1%;
+    left: 1%;
+    width:10px;
+    height: 10px;
 }
 .map {
   position: fixed;
-  bottom: 2%;
+  bottom: 1%;
   right: 1%;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
 }
 
 .close {
