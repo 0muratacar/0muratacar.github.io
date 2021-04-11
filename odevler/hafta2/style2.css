@@ -39,15 +39,33 @@ ul.topnav {
     color:cadetblue;
 }
 
-
-
+.col-lg-6{
+    
+margin-top: 6%;
+}
+.col-12{
+    margin-top: 6%;
+}
+.name, .email {
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+  }
+  .message{
+    width: 90%;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 40px;
+  
+  }
 
 
 .my_div, .my_div2{
     flex-wrap: wrap;
     width: 40%;
     padding: 12px;
-    mar gin-left: 60px;
+    margin-left: 60px;
 }
 main{
     display: flex;
@@ -73,7 +91,9 @@ main section{
     border: 1px solid gray;
     list-style: none;
     box-shadow: 2px 2px 2px 2px gray;
-    margin: 50px;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right:15%;
     background-color: rgb(240, 216, 216);
 }
 .fkr h2{
@@ -98,9 +118,10 @@ i {
     color: black;
 }
 footer{
+    color: aliceblue;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #6495ED;
+    background-color: #333;
 
 }

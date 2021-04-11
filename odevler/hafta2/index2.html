@@ -17,7 +17,7 @@
         <li><a href="../hworks.html" style="float: right; padding-right: 20px;">Ödevler</a></li>
     </ul>
 
-    <main>
+
 
         <!--Sayfanın Solunda yer alan kısım, tıklandığı bölüme geçiyor-->
         <section class="vertical_navigation">
@@ -25,6 +25,7 @@
                 <li><a href="#mehmet"><i class="fas fa-user-alt"></i>&nbsp Mehmet Öztürk</a></li>
                 <li style="margin-top: 50px;"><a href="#nur"><i class="fas fa-user-alt"></i>&nbsp Nur Hatipoğlu</a></li>
                 <li style="margin-top: 50px;"><a href="#murat"><i class="fas fa-user-alt"></i>&nbsp Murat Acar</a></li>
+                <li style="margin-top: 50px;"><a href="#mail"><i class="fas fa-comments"></i>&nbsp MAİL GÖNDER</a></li>
 
             </ul>
         </section>
@@ -32,7 +33,7 @@
         <section>
 
             <!--Proje fikirlerinin açıklandığı kısım.-->
-            <div class="fkr" style="margin-left: 15%;">
+            <!--<div class="fkr" style="margin-left: 15%;">
                 <h2 id="baslik" style="padding-left: 20px;color:#6495ED">Proje Fikirlerimiz</h2>
                 <div class="fikir_div">
                     <div class="my_div">
@@ -58,10 +59,10 @@
                     </div>
 
                 </div>
-            </div>
+            </div>-->
 
             <!--Takım üyeleri hakkında bilgi verilen kısım.-->
-            <div class="main_div" style="margin-left: 15%;">
+            <div class="main_div">
                 <h1 style="margin-left: 50px;margin-bottom: 50px;color:#6495ED">Takım Üyeleri</h1>
 
                 <ul style="list-style-type: none;">
@@ -152,11 +153,42 @@
                                         class="fab fa-linkedin"></i></a></p>
                         </div>
                     </li>
+                    <li class="kisi" id="mail">
+                        <hr><hr><br><hr>
+                        <h2 style="text-align: center;">MESAJ GÖNDERİN</h2>
+                        <form action="" method="post" class="contact-form">
+                            <div class="row">
+                              <div class="col-lg-6 ">
+                                <input class="name" type="text" placeholder="İsim Soyisim" id="name" required /> 
+                              </div>
+                              <div class="col-lg-6" >
+                                <input type="text" class="email" placeholder="E-mail veya iletişim bilgisi" id="email" required /> <br />
+                              </div>
+                              <div class="col-12">
+                                <textarea 
+                                class="message"
+                                name="message" 
+                                id="" 
+                                cols="30" 
+                                rows="10"
+                                placeholder="Mesajınız:"
+                                id="message"
+                                required
+                                ></textarea>                  
+                            </div>
+                              <div class="col-12">
+                                <button type="submit">Mesaj Gönder</button>
+                              </div>
+                            </div>
+                          </form>
+                          <script src="send-mail.js"></script>
+                          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                          <script src="https://smtpjs.com/v3/smtp.js"></script>
+                    </li>
                 </ul>
 
             </div>
         </section>
-    </main>
 
 
     <footer>
