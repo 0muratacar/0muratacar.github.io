@@ -95,8 +95,8 @@ body {
 @media screen and (max-width: 700px) {
   .video {
     position: fixed;
-    top: 1%;
-    left: 1%;
+    top: 0.2%;
+    left: 0.2%;
     width:10px;
     height: 10px;
 }
@@ -104,8 +104,8 @@ body {
   position: fixed;
   bottom: 1%;
   right: 1%;
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
 }
 
 .close {
