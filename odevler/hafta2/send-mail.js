@@ -1,14 +1,15 @@
 /*
 
-Mail adresi için yapılması gereken ayarlar
+Mail adresinize mail alabilmek için,
 https://myaccount.google.com/lesssecureapps
 Buradan izin ver,
 
 */
 
-
+//contact-form classındaki bilgileri alma kontrolü, alıyorsa submitForm fonksiyonuna gider.
 var el=document.querySelector(".contact-form");
 if(el){
+
     el.addEventListener("submit",submitForm);
 }
 else{
@@ -16,7 +17,7 @@ else{
 }
 
 
-
+// İnputlardan gelen bilgileri değişkene atıp içeriği sıfırlıyoruz ve sendEmail adlı fonksiyona gönderiyoruz.
 function submitForm(e){
     e.preventDefault();
 
@@ -33,7 +34,7 @@ function submitForm(e){
 }
  
 
-// Send Email Info  
+// Mail gönderimi için gerekli ayarlar ve mesaj kısmı hazırlanıyor, mesaj iletildiğinde alert ile uyarı veriyor.
 function sendEmail(name, email, message){
     Email.send({
         Host: "smtp.gmail.com",

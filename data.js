@@ -1,3 +1,4 @@
+// Her ülke/şehire ait isim, tanıtım videosu, radyo/geleneksel müzik, bayrak ve harita verilerinin alındığı kısım
 var models = [
     {
         name: "Istanbul / Turkey", // İstanbul/Türkiye
