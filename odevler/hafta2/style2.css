@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#baslik {
+    color: cadetblue;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    justify-content: center;
+}
+
+.vertical_navigation {
+    margin-top: 98px;
+    width: 15%;
+    position: fixed;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-shadow: rgba(172, 165, 165, 0.2) 0px 12px 28px 0px, rgba(207, 64, 64, 0.1) 0px 2px 4px 0px, rgba(238, 238, 238, 0.05) 0px 0px 0px 1px inset;
+
+}
+
+.vertical_navigation ul {
+    list-style: none;
+
+}
+
+.vertical_navigation li {
+    margin-top: 50px;
+}
+
+
+.main_div,
+.fkr {
+    border:2px solid aliceblue;
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    background-color: rgb(240, 216, 216);
+    box-shadow: rgba(172, 165, 165, 0.2) 0px 12px 28px 0px, rgba(207, 64, 64, 0.1) 0px 2px 4px 0px, rgba(238, 238, 238, 0.05) 0px 0px 0px 1px inset;
+}
+
+.fkr h2 {
+    text-align: center;
+}
+
+.fikir_div {
+    display: flex;
+}
+
+.kisi {
+    margin-bottom: 80px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+i {
+    color: black;
+    transition: all 1s;
+}
+
+i:hover {
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333333;
+
+}
