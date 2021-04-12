@@ -82,14 +82,17 @@ ul.topnav {
   padding-left: -50px !important;
 
 }
-body {
-    background-image: linear-gradient(to right bottom,
-            rgba(12, 11, 11, 0.7),
-            rgba(250, 250, 250, 0.3)), url("images/city3.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto;
-    background-attachment: fixed;
+html,body {
+  width: 100%;
+  height: 100%;
+  background-position-y: 100%;
+  background-image: linear-gradient(to right bottom,
+          rgba(12, 11, 11, 0.7),
+          rgba(250, 250, 250, 0.3)), url("images/city3.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  background-attachment: fixed;
 }
 
 /*responsive tasarım olması için media screen kısmı kullanılmıştır.*/
