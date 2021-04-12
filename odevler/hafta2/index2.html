@@ -6,34 +6,154 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+<style>
+    body {
+        background-color: rgb(243, 212, 212);
+        margin: 0;
+        padding: 0;
+        color: aliceblue;
+    }
 
-<body>
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: sticky;
+        top: 0;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a:hover {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #4CAF50;
+    }
+
+    #baslik {
+        color: cadetblue;
+    }
+
+    main {
+        display: flex;
+    }
+
+    main section {
+        justify-content: center;
+    }
+
+    .vertical_navigation {
+        margin-top: 98px;
+        width: 15%;
+        position: fixed;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        box-shadow: rgba(172, 165, 165, 0.2) 0px 12px 28px 0px, rgba(207, 64, 64, 0.1) 0px 2px 4px 0px, rgba(238, 238, 238, 0.05) 0px 0px 0px 1px inset;
+
+    }
+
+    .vertical_navigation ul {
+        list-style: none;
+
+    }
+
+    .vertical_navigation li {
+        margin-top: 50px;
+    }
+
+
+    .main_div,
+    .fkr {
+        border:2px solid aliceblue;
+        list-style: none;
+        margin-top: 100px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 50px;
+        background-color: rgb(240, 216, 216);
+        box-shadow: rgba(172, 165, 165, 0.2) 0px 12px 28px 0px, rgba(207, 64, 64, 0.1) 0px 2px 4px 0px, rgba(238, 238, 238, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .fkr h2 {
+        text-align: center;
+    }
+
+    .fikir_div {
+        display: flex;
+    }
+
+    .kisi {
+        margin-bottom: 80px;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    i {
+        color: black;
+        transition: all 1s;
+    }
+
+    i:hover {
+        color: aliceblue;
+    }
+
+    footer {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #333333;
+
+    }
+</style>
+
+<body class="bg-dark">
 
     <!--Navbar kısmı, Tüm sayfalarda var.-->
     <ul class="topnav">
-        <li><a class="active" href="../../index.html">Ana Sayfa</a></li>
-        <li style="float: right; padding-left: 20px; padding-right: 20px;"><a href="../hafta2/index2.html">Biz Kimiz?</a></li>
+        <li><a class="active bg-primary" href="../../index.html">Ana Sayfa</a></li>
+        <li style="float: right; padding-left: 20px; padding-right: 20px;"><a href="../hafta2/index2.html">Biz
+                Kimiz?</a></li>
         <li><a href="../hworks.html" style="float: right; padding-right: 20px;">Ödevler</a></li>
     </ul>
 
 
 
-        <!--Sayfanın Solunda yer alan kısım, tıklandığı bölüme geçiyor-->
-        <section class="vertical_navigation">
-            <ul>
-                <li><a href="#mehmet"><i class="fas fa-user-alt"></i>&nbsp Mehmet Öztürk</a></li>
-                <li style="margin-top: 50px;"><a href="#nur"><i class="fas fa-user-alt"></i>&nbsp Nur Hatipoğlu</a></li>
-                <li style="margin-top: 50px;"><a href="#murat"><i class="fas fa-user-alt"></i>&nbsp Murat Acar</a></li>
-                <li style="margin-top: 50px;"><a href="#mail"><i class="fas fa-comments"></i>&nbsp MAİL GÖNDER</a></li>
+    <!--Sayfanın Solunda yer alan kısım, tıklandığı bölüme geçiyor-->
+    <section class="vertical_navigation">
+        <ul>
+            <li><a href="#mehmet"><i class="fas fa-user-alt"></i>&nbsp Mehmet Öztürk</a></li>
+            <li style="margin-top: 50px;"><a href="#nur"><i class="fas fa-user-alt"></i>&nbsp Nur Hatipoğlu</a></li>
+            <li style="margin-top: 50px;"><a href="#murat"><i class="fas fa-user-alt"></i>&nbsp Murat Acar</a></li>
+            <li style="margin-top: 50px;"><a href="#mail"><i class="fas fa-comments"></i>&nbsp Bize Ulaşın</a></li>
 
-            </ul>
-        </section>
+        </ul>
+    </section>
 
-        <section>
+    <section>
 
-            <!--Proje fikirlerinin açıklandığı kısım.-->
-            <!--<div class="fkr" style="margin-left: 15%;">
+        <!--Proje fikirlerinin açıklandığı kısım.-->
+        <!--<div class="fkr" style="margin-left: 15%;">
                 <h2 id="baslik" style="padding-left: 20px;color:#6495ED">Proje Fikirlerimiz</h2>
                 <div class="fikir_div">
                     <div class="my_div">
@@ -61,140 +181,139 @@
                 </div>
             </div>-->
 
-            <!--Takım üyeleri hakkında bilgi verilen kısım.-->
-            <div class="main_div">
-                <h1 style="margin-left: 50px;margin-bottom: 50px;color:#6495ED">Takım Üyeleri</h1>
+        <!--Takım üyeleri hakkında bilgi verilen kısım.-->
+        <div class="main_div bg-dark">
+            <h1 style="text-align: center;margin-bottom: 50px;" class="text-primary">Takım Üyeleri</h1>
 
-                <ul style="list-style-type: none;">
-                    <li class="kisi" id="mehmet">
-                        <img src="../image/ben4.jfif" alt="Resim"><br>
-                        <u>
-                            <p style="margin-left: 5px;">Mehmet Öztürk</p>
-                        </u>
-                        <hr>
-                        <div>
-                            <b>Mehmet Öztürk, </b> Marmara Üniversitesi bilgisayar mühendisliği 2. sınıf öğrencisidir.
-                            <u>Teknofest 2020 Akıllı Ulaşım Kategorisi</u> Jüri Ödülünü kazanmıştır.
-                            <h3 style="padding-left: 20px;">Projeler</h3>
-                            <ol>
-                                <li>A-Peron</li>
-                                <li>Misus</li>
-                                <li>E-Ticaret Sitesi</li>
-                                <li>Blog Sitesi</li>
-                                <li>DevMaids</li>
-                                <li>Kişisel CV Sitesi</li>
-                                <li>Deprem Sensör Cihazı</li>
-                                <li>Mücevherat Tanıtım Sitesi</li>
-                                <li>Gym Yönetim Sistemi</li>
-                                <li>Kütüphane Yönetim Sistemi</li>
+            <ul style="list-style-type: none;">
+                <li class="kisi" id="mehmet">
+                    <img src="../image/ben4.jfif" alt="Resim"><br>
+                    <u>
+                        <p style="margin-left: 42px;">Mehmet Öztürk</p>
+                    </u>
+                    <hr>
+                    <div>
+                        <b>Mehmet Öztürk, </b> Marmara Üniversitesi bilgisayar mühendisliği 2. sınıf öğrencisidir.
+                        <u>Teknofest 2020 Akıllı Ulaşım Kategorisi</u> Jüri Ödülünü kazanmıştır.
+                        <h3 style="padding-left: 20px;">Projeler</h3>
+                        <ol>
+                            <li>A-Peron</li>
+                            <li>Misus</li>
+                            <li>E-Ticaret Sitesi</li>
+                            <li>Blog Sitesi</li>
+                            <li>Portfolio Sitesi</li>
+                            <li>DevMaids</li>
+                            <li>Deprem Sensör Cihazı</li>
+                            <li>Mücevherat Tanıtım Sitesi</li>
+                            <li>Gym Yönetim Sistemi</li>
+                            <li>Kütüphane Yönetim Sistemi</li>
 
-                            </ol>
-                            <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
-                                    mehmet.ztrk2134@gmail.com</small></span></p>
-                            <p style="float: right; margin-right: 30px;"><a href=" https://github.com/mehmetztrk21"
-                                    target="_blank"><i class="fab fa-github"></i></a></p>
-                            <p style="float: right; margin-right: 30px;"><a
-                                    href="https://www.linkedin.com/in/mehmet-%C3%B6zt%C3%BCrk-3a31351a8/"
-                                    target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                        </ol>
+                        <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
+                                mehmet.ztrk2134@gmail.com</small></span></p>
+                        <p style="float: right; margin-right: 30px;"><a href=" https://github.com/mehmetztrk21"
+                                target="_blank"><i class="fab fa-github"></i></a></p>
+                        <p style="float: right; margin-right: 30px;"><a
+                                href="https://www.linkedin.com/in/mehmet-%C3%B6zt%C3%BCrk-3a31351a8/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></p>
 
-                        </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="kisi" id="nur">
-                        <img src="../image/NurResim.jfif" alt="Resim"><br>
-                        <u>
-                            <p style="margin-left: 5px;">Nur Hatipoğlu</p>
-                        </u>
-                        <hr>
-                        <div>
-                            <b>Nur Hatipoğlu, </b> Marmara Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisidir.
-                            <u>Derin öğrenme ve nesne yönelimli programlama</u> alanında çalışmalar yapmaktadır.
-                            <h3 style="padding-left: 20px;">Projeler</h3>
-                            <ol>
-                                <li>Duygu Analizi Sonucunda Kullanıcıya Mesaj Veren Sistem(Python Masaüstü Uygulaması)
-                                </li>
-                                <li>Eczane Yönetim Sistemi (Java Masaüstü Uygulaması)</li>
-                                <li>Otel Yönetim Sistemi (Java Masaüstü Uygulaması)</li>
-                                <li>Animasyonlu Top Oyunu (Java Masaüstü Uygulaması)</li>
-                                <li>Bisiklet Fiyat Tahmini (Python Veri Analizi)</li>
-                            </ol>
-                            <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
-                                    0.anurzz.9@gmail.com</small></span></p>
-                            <p style="float: right; margin-right: 30px;"><a href=" https://github.com/nurhatipoglu"
-                                    target="_blank"><i class="fab fa-github"></i></a></p>
-                            <p style="float: right; margin-right: 30px;"><a
-                                    href=" https://www.linkedin.com/in/nur-hatipoğlu-74b527199/" target="_blank"><i
-                                        class="fab fa-linkedin"></i></a></p>
-                        </div>
-                    </li>
-                    <li class="kisi" id="murat">
-                        <img src="../image/MuratResim.jfif" alt="Resim"><br>
-                        <u>
-                            <p style="margin-left: 5px;">Murat Acar</p>
-                        </u>
-                        <hr>
-                        <div>
-                            <b>Murat Acar, </b> Marmara Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisidir.
-                            <h3 style="padding-left: 20px;">Projeler</h3>
-                            <ol>
-                                <li>Şirketler için inovasyon portalı(WEB uygulaması)</li>
-                                <li>Makale Yönetim Sistemi(WEB uygulaması)</li>
-                                <li>Ekran görüntüsünden translate işlemi (Python Masaüstü Uygulaması)</li>
-                                <li>Göz hareketleri ile bilgisayar kontrolü (Python Masaüstü Uygulaması)</li>
-                                <li>2. El araç satışı takibi programı (Python web crawling Uygulaması)</li>
-                                <li>İşci Maaş bodrosu (Java Masaüstü Uygulaması)</li>
-                            </ol>
-                            <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
-                                    mrtacr2534@gmail.com</small></span></p>
-                            <p style="float: right; margin-right: 30px;"><a href=" https://github.com/0muratacar"
-                                    target="_blank"><i class="fab fa-github"></i></a></p>
-                            <p style="float: right; margin-right: 30px;"><a
-                                    href=" https://www.linkedin.com/in/murat-acar-1aa985174/" target="_blank"><i
-                                        class="fab fa-linkedin"></i></a></p>
-                        </div>
-                    </li>
-                    <li class="kisi" id="mail">
-                        <hr><hr><br><hr>
-                        <h2 style="text-align: center;">MESAJ GÖNDERİN</h2>
-                        <form action="" method="post" class="contact-form">
-                            <div class="row">
-                              <div class="col-lg-6 ">
-                                <input class="name" type="text" placeholder="İsim Soyisim" id="name" required /> 
-                              </div>
-                              <div class="col-lg-6" >
-                                <input type="text" class="email" placeholder="E-mail veya iletişim bilgisi" id="email" required /> <br />
-                              </div>
-                              <div class="col-12">
-                                <textarea 
-                                class="message"
-                                name="message" 
-                                id="" 
-                                cols="30" 
-                                rows="10"
-                                placeholder="Mesajınız:"
-                                id="message"
-                                required
-                                ></textarea>                  
+                <li class="kisi" id="nur">
+                    <img src="../image/NurResim.jfif" alt="Resim"><br>
+                    <u>
+                        <p style="margin-left: 42px;">Nur Hatipoğlu</p>
+                    </u>
+                    <hr>
+                    <div>
+                        <b>Nur Hatipoğlu, </b> Marmara Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisidir.
+                        <u>Derin öğrenme ve nesne yönelimli programlama</u> alanında çalışmalar yapmaktadır.
+                        <h3 style="padding-left: 20px;">Projeler</h3>
+                        <ol>
+                            <li>Duygu Analizi Sonucunda Kullanıcıya Mesaj Veren Sistem(Python Masaüstü Uygulaması)
+                            </li>
+                            <li>Eczane Yönetim Sistemi (Java Masaüstü Uygulaması)</li>
+                            <li>Otel Yönetim Sistemi (Java Masaüstü Uygulaması)</li>
+                            <li>Animasyonlu Top Oyunu (Java Masaüstü Uygulaması)</li>
+                            <li>Bisiklet Fiyat Tahmini (Python Veri Analizi)</li>
+                        </ol>
+                        <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
+                                0.anurzz.9@gmail.com</small></span></p>
+                        <p style="float: right; margin-right: 30px;"><a href=" https://github.com/nurhatipoglu"
+                                target="_blank"><i class="fab fa-github"></i></a></p>
+                        <p style="float: right; margin-right: 30px;"><a
+                                href=" https://www.linkedin.com/in/nur-hatipoğlu-74b527199/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></p>
+                    </div>
+                </li>
+                <li class="kisi" id="murat">
+                    <img src="../image/MuratResim.jfif" alt="Resim"><br>
+                    <u>
+                        <p style="margin-left: 60px;">Murat Acar</p>
+                    </u>
+                    <hr>
+                    <div>
+                        <b>Murat Acar, </b> Marmara Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisidir.
+                        <h3 style="padding-left: 20px;">Projeler</h3>
+                        <ol>
+                            <li>Şirketler için inovasyon portalı(WEB uygulaması)</li>
+                            <li>Makale Yönetim Sistemi(WEB uygulaması)</li>
+                            <li>Ekran görüntüsünden translate işlemi (Python Masaüstü Uygulaması)</li>
+                            <li>Göz hareketleri ile bilgisayar kontrolü (Python Masaüstü Uygulaması)</li>
+                            <li>2. El araç satışı takibi programı (Python web crawling Uygulaması)</li>
+                            <li>İşci Maaş bodrosu (Java Masaüstü Uygulaması)</li>
+                        </ol>
+                        <p style="float: right; margin-right: 30px;"><strong>İletişim:</strong><small>
+                                mrtacr2534@gmail.com</small></span></p>
+                        <p style="float: right; margin-right: 30px;"><a href=" https://github.com/0muratacar"
+                                target="_blank"><i class="fab fa-github"></i></a></p>
+                        <p style="float: right; margin-right: 30px;"><a
+                                href=" https://www.linkedin.com/in/murat-acar-1aa985174/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></p>
+                    </div>
+                </li>
+                <li class="kisi" id="mail">
+                    <hr><br>
+                    <h2 style="text-align: center;" class="mb-3">MESAJ GÖNDERİN</h2>
+                    <form action="" method="post" class="contact-form">
+                        <div class="container row">
+                            <div class="col-md-6 form-group">
+                                <input class="name form-control" type="text" placeholder="Ad Soyad" id="name"
+                                    required />
                             </div>
-                              <div class="col-12">
-                                <button type="submit">Mesaj Gönder</button>
-                              </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" type="email" class="email" placeholder="E-mail"
+                                    id="email" required />
                             </div>
-                          </form>
-                          <script src="send-mail.js"></script>
-                          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                          <script src="https://smtpjs.com/v3/smtp.js"></script>
-                    </li>
-                </ul>
+                            <div class="col-md-12 form-group">
 
-            </div>
-        </section>
+                                <textarea class="message form-control" name="message" rows="7" placeholder="Mesajınız"
+                                    id="message" required></textarea>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <button type="submit" class="btn btn-primary form-control">Mesaj Gönder</button>
+                                <div>
+                                </div>
+                    </form>
+                    <script src="send-mail.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://smtpjs.com/v3/smtp.js"></script>
+                </li>
+            </ul>
+
+        </div>
+    </section>
 
 
     <footer>
         &copy WebProgramming
     </footer>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
