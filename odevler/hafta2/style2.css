@@ -38,6 +38,10 @@ ul.topnav li a:hover {
     color: cadetblue;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 main {
     display: flex;
 }
